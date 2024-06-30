@@ -1,6 +1,11 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("font/Poppins-Regular.ttf");
+}
+
 *,
 html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Poppins";
 }
 
 .footer {
@@ -19,7 +24,7 @@ html {
 
 .owl-nav span {
   font-size: 70px !important;
-  margin: 30px;
+  margin: 10px;
   position: relative;
   top: -50px;
   color: white;
@@ -47,7 +52,7 @@ html {
 .item img {
   height: 300px;
   width: 250px !important;
-  border-radius: 30px;
+  border-radius: 13px;
 }
 
 div.item {
@@ -56,7 +61,7 @@ div.item {
 
 div.owl-item.active {
   width: 250px !important;
-  margin-right: 15px !important;
+  margin-right: 10px !important;
 }
 
 /* div.owl-stage { 
