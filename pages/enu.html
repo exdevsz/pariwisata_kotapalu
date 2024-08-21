@@ -13,6 +13,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      (function (m, a, z, e) {
+        var s, t;
+        try {
+          t = m.sessionStorage.getItem('maze-us');
+        } catch (err) {}
+      
+        if (!t) {
+          t = new Date().getTime();
+          try {
+            m.sessionStorage.setItem('maze-us', t);
+          } catch (err) {}
+        }
+      
+        s = a.createElement('script');
+        s.src = z + '?apiKey=' + e;
+        s.async = true;
+        a.getElementsByTagName('head')[0].appendChild(s);
+        m.mazeUniversalSnippetApiKey = e;
+      })(window, document, 'https://snippet.maze.co/maze-universal-loader.js', 'f26c64ef-77aa-4484-a1d1-1588facc1434');
+      </script>
   </head>
 
   <body>
@@ -57,7 +78,7 @@
         <div class="row">
           <div class="col-md-12">
             <h2 class="fw-boldx text-center fw-bold">Pantai Enu</h2>
-            <div class="text-secondary" style="margin-justify: 20px">
+            <div class="text-secondary">
               <p class="">
                 Terletak di Desa Enu, Kecamatan Sindue, Kabupaten Donggala, sekitar 40 kilometer dari Kota Palu, Pantai Enu bagaikan permata tersembunyi yang menawarkan pesona alam yang memukau. Jauh dari keramaian kota, pantai ini menghadirkan suasana yang tenang dan damai, menjadikannya tempat yang ideal untuk melarikan diri dari hiruk pikuk kehidupan sehari-hari. Pantai Enu menyambut pengunjung dengan hamparan pasir putih yang halus dan air laut biru jernih yang berkilauan di bawah sinar matahari. Deburan ombak yang menenangkan dan angin sepoi-sepoi menciptakan suasana yang menyegarkan dan menenangkan jiwa. Pemandangan alam di Pantai Enu semakin mempesona dengan dikelilingi oleh pegunungan hijau yang asri. Perpaduan sempurna antara laut dan gunung menghadirkan panorama yang memanjakan mata dan memberikan rasa ketenangan yang mendalam.
               </p>
